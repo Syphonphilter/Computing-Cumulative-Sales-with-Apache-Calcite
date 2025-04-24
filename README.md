@@ -1,4 +1,4 @@
-# Superstore Sales Analysis System
+# Computing Cumulative Sales With Apache Calcite
 
 ## Overview
 This project develops a system for analyzing the **Superstore** dataset, focusing on cumulative sales computation, query execution analysis, and sales‑trend visualization. The system leverages **Apache Calcite** for query processing, implements recursive CTEs and window functions for time‑series analysis, and visualizes sales trends using **JFreeChart**.
