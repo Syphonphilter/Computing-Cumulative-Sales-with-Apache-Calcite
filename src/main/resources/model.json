@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "defaultSchema": "SUPERSTORE",
+  "schemas": [
+    {
+      "name": "SUPERSTORE",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.csv.CsvSchemaFactory",
+      "operand": {
+        "directory": "data",
+        "flavor": "scannable"
+      }
+    }
+  ]
+}
